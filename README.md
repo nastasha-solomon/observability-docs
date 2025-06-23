@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> Starting with Elastic Stack v9.0.0 the content in this repo has been moved to other repos.
+> Starting with Elastic Stack v9.0.0 the source files in this repo have been moved to other repos.
 >
 > **If you need to update the docs for a version prior to 9.0.0**, you can open a PR in this repo targeting the specific version branch and backport to other branches using the [Backport CLI tool](https://github.com/sorenlouv/backport?tab=readme-ov-file#backport-cli-tool).
 >
@@ -7,10 +7,12 @@
 >
 > * Observability guide and serverless docs: [elastic/docs-content](https://github.com/elastic/docs-content/tree/main/solutions/observability) (stateless and serverless docs have been consolidated into one doc set)
 > * Integrations developer guide: [elastic/integrations](https://github.com/elastic/integrations/tree/main/docs/extend)
+> 
+> **If you want to open a documentation issue or request**, please open an issue in [elastic/docs-content](https://github.com/elastic/docs-content/issues).
 
 # observability-docs
 
-The home of Elastic Observability documentation v8.17 and earlier.
+The home of Elastic Observability documentation prior to version 9.0.0.
 
 ## License
 
