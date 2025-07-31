@@ -104,6 +104,7 @@ You an also specify {kibana-ref}/rule-action-variables.html[variables common to 
 `context.cloud`:: The cloud object defined by ECS if available in the source.
 `context.container`:: The container object defined by ECS if available in the source.
 `context.group`:: Name of the group(s) reporting data. For accessing each group key, use `context.groupByKeys`.
+`context.grouping``:: The object containing groups that are reporting data.
 `context.groupByKeys`:: The object containing groups that are reporting data.
 `context.host`:: The host object defined by ECS if available in the source.
 `context.labels`:: List of labels associated with the entity where this alert triggered.
