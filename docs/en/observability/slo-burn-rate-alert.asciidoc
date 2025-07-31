@@ -64,6 +64,7 @@ You an also specify {kibana-ref}/rule-action-variables.html[variables common to 
 
 `context.alertDetailsUrl`:: Link to the alert troubleshooting view for further context and details. This will be an empty string if the `server.publicBaseUrl` is not configured.
 `context.burnRateThreshold`:: The burn rate threshold value.
+`context.grouping``:: The object containing groups that are reporting data.
 `context.longWindow`:: The window duration with the associated burn rate value.
 `context.reason`:: A concise description of the reason for the alert.
 `context.shortWindow`:: The window duration with the associated burn rate value.

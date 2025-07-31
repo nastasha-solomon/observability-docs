@@ -92,6 +92,9 @@ Link to the alert troubleshooting view for further context and details. This wil
 `context.environment`::
 The transaction type the alert is created for.
 
+`context.grouping``:: 
+The object containing groups that are reporting data.
+
 `context.interval`::
 The length and unit of the time period where the alert conditions were met.
 

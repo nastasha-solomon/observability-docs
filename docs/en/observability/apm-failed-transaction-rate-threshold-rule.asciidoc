@@ -88,28 +88,31 @@ You an also specify {kibana-ref}/rule-action-variables.html[variables common to 
 Link to the alert troubleshooting view for further context and details. This will be an empty string if the server.publicBaseUrl is not configured.
 
 `context.environment`::
-The transaction type the alert is created for
+The transaction type the alert is created for.
+
+`context.grouping``:: 
+The object containing groups that are reporting data.
 
 `context.interval`::
-The length and unit of the time period where the alert conditions were met
+The length and unit of the time period where the alert conditions were met.
 
 `context.reason`::
-A concise description of the reason for the alert
+A concise description of the reason for the alert.
 
 `context.serviceName`::
-The service the alert is created for
+The service the alert is created for.
 
 `context.threshold`::
-Any trigger value above this value will cause the alert to fire
+Any trigger value above this value will cause the alert to fire.
 
 `context.transactionName`::
-The transaction name the alert is created for
+The transaction name the alert is created for.
 
 `context.transactionType`::
-The transaction type the alert is created for
+The transaction type the alert is created for.
 
 `context.triggerValue`::
-The value that breached the threshold and triggered the alert
+The value that breached the threshold and triggered the alert.
 
 `context.viewInAppUrl`::
-Link to the alert source
+Link to the alert source.
