@@ -130,7 +130,7 @@ can be viewed on the Alerts page.
 
 When creating or editing a rule, add the following resources to help you get started with investigating alerts:
 
-* **Investigation guide**: Investigation guides can help you respond to alerts more efficiently and consistently. When creating them, you can include instructions for responding to alerts, links to external supporting materials, and more. When the rule generates an alert, the investigation guide can be accessed from the **Investigation guide** tab on the <<view--alert-detail, alert details page>>
+* **Investigation guide**: Investigation guides can help you respond to alerts more efficiently and consistently. When creating them, you can include instructions for responding to alerts, links to external supporting materials, and more. When the rule generates an alert, the investigation guide can be accessed from the **Investigation guide** tab on the <<view-observability-alerts, alert details page>>
 +
 TIP: Use Markdown to format and structure text in your investigation guide.
 +
