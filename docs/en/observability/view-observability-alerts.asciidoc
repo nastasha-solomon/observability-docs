@@ -59,6 +59,14 @@ To view the alert in the app that triggered it:
 * From the Alerts table, click the image:images/icons/eye.svg[View in app] icon.
 
 [discrete]
+[[find-related-alerts]]
+== Find related alerts  
+
+Related alerts can help you to identify patterns and recurring events that might warrant investigation. When examining an alert's details, you can find related alerts by selecting the **Related alerts** tab. 
+
+Relevance to the current alert is based on how closely other alerts match it. Certain attributes are evaluated for matching, such as groups, tags, associated rules, and the time of which an alert was created. Alerts with more matching attributes are determined as more relevant and placed higher on the list of related alerts. To find related alerts that were created around the same time, apply the **Triggered around the same time** filter.
+
+[discrete]
 [[understand-alert-statuses]]
 == Understand alert statuses
 
@@ -119,12 +127,13 @@ NOTE: Each case can have a maximum of 1,000 alerts.
 
 To add an alert to a new case:
 
-. Select **Add to new case**.
+. From the **More actions** menu (image:images/icons/boxesHorizontal.svg[More actions]) in the Alerts table or the alert detail flyout, click *Alert details*, then select **Add to new case**.
 . Enter a case name, add relevant tags, and include a case description.
 . Under *External incident management system*, select a connector. If you’ve previously added one, that connector
 displays as the default selection. Otherwise, the default setting is No connector selected.
-. After you’ve completed all of the required fields, click *Create case*. A notification message confirms you successfully
-created the case. To view the case details, click the notification link or go to the <<create-cases,Cases>> page.
+. After you’ve completed all of the required fields, click *Create case*. 
+
+After creating the case, a confirmation message with an option to view the newly-created case displays. Click the notification link or go to the <<create-cases,Cases>> page to view the case details.
 
 [discrete]
 [[existing-case-observability-alerts]]
@@ -132,9 +141,24 @@ created the case. To view the case details, click the notification link or go to
 
 To add an alert to an existing case:
 
-. Select **Add to existing case**.
-. From the Select case pane, select the case for which to attach an alert. A confirmation message displays
-with an option to view the updated case. To view the case details, click the notification link or go to the <<create-cases,Cases>> page.
+. From the **More actions** menu (image:images/icons/boxesHorizontal.svg[More actions]) in the Alerts table or the alert detail flyout, click *Alert details*, select **Add to existing case**.
+. Select the case for which to attach an alert. 
+
+After choosing a case, a confirmation message with an option to view the updated case displays. Click the notification link or go to the <<create-cases,Cases>> page to view the case details.
+
+[discrete]
+[[investigation-resources-observability-alerts]]
+== Access additional incident management and response resources
+
+Incident management resources can help you respond to alerts more efficiently and consistently. You can add these resources to a rule that you are <<create-alerts-rules,creating or managing>>. When an alert is generated from that rule, you can access the resources from the alert's details page. Below are the types of resources you can add to a rule and access from an alert's details page.
+
+* *Investigation guide*: An investigation guide provides step-by-step instructions and links to external resources for investigating and responding to alerts. On the alert's details page, you can access the guide from the **Investigation guide** tab.
+* *Related and suggested dashboards*: (Only available for custom threshold rules) Dashboards can provide additional context and information about the alert. You can access them from the **Dashboards** tab on the alert's details page. Related dashboards are linked to the rule that generated the alert. Suggested dashboards are comprised of other dashboards that use lens visualizations that:
++
+** Query the same data view
+** Use some of the same fields that are specified in the rule's configuration or are present in alert's genereated by the rule. 
+
+
 
 [discrete]
 [[clean-up-alerts-obs]]
