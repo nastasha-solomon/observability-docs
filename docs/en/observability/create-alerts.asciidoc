@@ -94,8 +94,8 @@ a| * <<degraded-docs-alert,Degraded docs rule>>
 |===
 
 [discrete]
-[[investigation-resources-observability-alerts]]
-=== Provide additional incident management and response resources
+[[incident-management-resources-observability-alerts]]
+=== Add incident management and response resources to rules
 
 Incident management resources can help you respond to alerts more efficiently and consistently. You can add these resources to a rule that you are creating or managing. When an alert is generated from that rule, the resources that you added can be accessed from the <<view--alert-details,alert's details page>>. Here are some resources you can add to a rule: 
 
@@ -104,6 +104,18 @@ Incident management resources can help you respond to alerts more efficiently an
 +
 ** Query the same data view
 ** Use some of the same fields that are specified in the rule's configuration or are present in alert's genereated by the rule. 
+
+[discrete]
+[[add-investigation-resources-to-rules]]
+=== Add resources for investigating alerts
+
+When creating or editing a rule, add the following resources to help you get started with investigating alerts:
+
+* **Investigation guide**: Investigation guides can help you respond to alerts more efficiently and consistently. When creating them, you can include instructions for responding to alerts, links to external supporting materials, and more. When the rule generates an alert, the investigation guide can be accessed from the **Investigation guide** tab on the <<view--alert-detail, alert details page>>
++
+TIP: Use Markdown to format and structure text in your investigation guide.
++
+* **Related and suggested dashboards**: (Only available for custom threshold rules) Link to dashboards that provide useful insights about your environment, active events, and any other information that might be relevant during your investigations. When the rule generates an alert, linked dashboards can be accessed from the **Related dashboards** tab on the alert's details page. From the tab, you can also review and add suggested dashboards.
 
 [discrete]
 [[create-alerts-rules-details]]
